@@ -45,6 +45,8 @@ void setup() {
   Serial.print("pass: ");
   Serial.println(password);
 
+  // Connect to WiFi
+  WiFi.begin(ssid, password);
   // Wait for connection
   while (WiFi.status() != WL_CONNECTED) {
      delay(500);
