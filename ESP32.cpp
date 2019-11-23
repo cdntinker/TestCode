@@ -7,7 +7,7 @@
 
 char WebPage[] =
   "<html>\n\
-  <head><title>ESP8266 Testing</title></head>\n\
+  <head><title>ESP32 Testing</title></head>\n\
   <body><h1>Ooga Booga!</h1>\n\
   <br><br><br><br>\n\
   <p>Yup...  It works.</p>\n\
@@ -16,7 +16,7 @@ char WebPage[] =
 
 char WebPage404[] =
   "<html>\n\
-  <head><title>ESP8266 Testing (404!)</title></head>\n\
+  <head><title>ESP32 Testing (404!)</title></head>\n\
   <body>\n\
   <h1>Say Wut\?\?\?</h1>\n\
   <br><br><br><br>\n\
